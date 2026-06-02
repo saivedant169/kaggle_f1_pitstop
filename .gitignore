@@ -1,0 +1,6 @@
+.venv/
+inputs/
+__pycache__/
+catboost_info/
+*.zip
+.DS_Store
