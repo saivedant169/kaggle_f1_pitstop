@@ -4,10 +4,19 @@ Binary classification. Predict P(PitNextLap=1) for each lap. Metric is ROC AUC.
 
 ## Result
 
-| | Public AUC | Rank |
+| Stage | AUC | Rank |
 |---|---|---|
 | Prior best | 0.95450 | ~375 |
-| This submission (O2.csv) | 0.95458 | ~22 of 3000+ (top 0.6%) |
+| Public (this submission) | 0.95458 | 22 |
+| Private (final) | 0.95453 | 225 of 3000+ |
+
+Public leaderboard, 0.95458 at rank 22:
+
+![Public leaderboard rank 22](public_rank_22.png)
+
+Final private leaderboard after the competition closed, 0.95453 at rank 225. The 0.95458 public score sat in a tight cluster, so the private split reshuffled it down to 225, still inside the top 8%.
+
+![Private leaderboard rank 225](private_rank_225.png)
 
 ## What moved the needle
 
